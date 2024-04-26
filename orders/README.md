@@ -1,4 +1,6 @@
 ## Application Details
+
+This is a standalone UI5 web application designed to display orders from the open source Northwind OData service.
 |               |
 | ------------- |
 |**Generation Date and Time**<br>Thu Apr 25 2024 14:30:47 GMT+0000 (Coordinated Universal Time)|
@@ -21,11 +23,13 @@
 
 ## orders
 
-An SAP Fiori application.
+An SAP Fiori application to display northwind orders.
 
 ### Starting the generated app
 
--   The app needs to be
+-   Clone the repository from the provided Git URL.
+-   Configure the application to connect to the Northwind OData service endpoint by creating a destination in SAP BTP Cockpit.
+-   Deploy the application to SAP Cloud Foundry using the Cloud Foundry CLI or SAP Business Application Studio.
 
 ```
     npm run start-mock
