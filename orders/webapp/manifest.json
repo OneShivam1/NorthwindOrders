@@ -118,13 +118,16 @@
                     "name": "sap.suite.ui.generic.template.ListReport",
                     "list": true,
                     "settings": {
-                        "condensedTableLayout": true,
+                        "condensedTableLayout": false,
                         "smartVariantManagement": true,
                         "enableTableFilterInPageVariant": true,
                         "filterSettings": {
                             "dateSettings": {
                                 "useDateRange": true
                             }
+                        },
+                        "dataLoadSettings": {
+                            "loadDataOnAppLaunch": "always"
                         }
                     }
                 },
